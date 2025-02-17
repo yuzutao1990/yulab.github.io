@@ -12,3 +12,16 @@ title: "Yucleic Lab"
         <a href="{{ '/research/' | relative_url }}" class="btn">Learn More</a>
     </div>
 </section>
+
+<!-- Links to Subpages -->
+<section id="subpages" class="subpages">
+    <div class="container">
+        <h2>Explore Our Site</h2>
+        <div class="subpage-links">
+            <a href="{{ '/research/' | relative_url }}" class="btn">Research</a>
+            <a href="{{ '/publications/' | relative_url }}" class="btn">Publications</a>
+            <a href="{{ '/team/' | relative_url }}" class="btn">Team</a>
+            <a href="{{ '/contact/' | relative_url }}" class="btn">Contact</a>
+        </div>
+    </div>
+</section>
