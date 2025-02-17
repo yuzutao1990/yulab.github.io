@@ -1,0 +1,48 @@
+title: "Yucleic Lab"
+description: "Research in nucleic acids, functional genomics, and drug design"
+baseurl: ""
+url: "https://www.yucleiclab.com"
+
+# Use Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins (required for Minimal Mistakes)
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-toc
+
+# Collections (for dynamic content)
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Navigation Menu
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Team"
+    url: /team/
+  - title: "Contact"
+    url: /contact/
+
+# Footer links
+footer:
+  links:
+    - label: "ASTAR"
+      icon: "fas fa-building"
+      url: "https://www.a-star.edu.sg/"
+    - label: "GIS"
+      icon: "<fa-solid fa-dna"
+      url: "https://www.a-star.edu.sg/gis"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:zutao_yu@163.com"
