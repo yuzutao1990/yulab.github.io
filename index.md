@@ -24,4 +24,4 @@ title: "Yucleic Lab"
             <a href="{{ '/contact/' | relative_url }}" class="btn">Contact</a>
         </div>
     </div>
-</section>
+</section> 
